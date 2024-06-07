@@ -23,7 +23,8 @@ RUN apt install -y \
   firefox \
   git \
   python3 \
-  python3-pip
+  python3-pip \
+  dropbear
 
 # xfce fixes
 RUN update-alternatives --set x-terminal-emulator /usr/bin/xfce4-terminal.wrapper
