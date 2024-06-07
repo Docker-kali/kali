@@ -24,7 +24,8 @@ RUN apt install -y \
   git \
   python3 \
   python3-pip \
-  dropbear
+  dropbear \
+  openvpn
 
 # xfce fixes
 RUN update-alternatives --set x-terminal-emulator /usr/bin/xfce4-terminal.wrapper
